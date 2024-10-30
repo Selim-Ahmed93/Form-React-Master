@@ -1,4 +1,5 @@
-import Form from './Components/Form-master/Form'
+// import Form from './Components/Form-master/Form'
+import StatefullForm from './StatefullForm/StatefullForm'
 import './App.css'
 
 function App() {
@@ -6,7 +7,8 @@ function App() {
     <>
       
       <h1>Vite + React</h1>
-      <Form></Form>
+      {/* <Form></Form> */}
+      <StatefullForm></StatefullForm>
     </>
   )
 }

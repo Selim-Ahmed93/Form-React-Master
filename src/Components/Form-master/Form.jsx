@@ -1,4 +1,5 @@
 // import React from 'react';
+import StatefullForm from "../../StatefullForm/StatefullForm";
 
 const Form = () => {
 
@@ -20,6 +21,7 @@ const Form = () => {
                 <input type="email" name="Email" />
                 <br />
                 <input type="text" name="phone"/>
+                <br />
                 <input type="submit" value = "Submit" />
                 <br />
                 
